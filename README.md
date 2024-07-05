@@ -18,4 +18,3 @@ Run the file
 node lca.js
 ```
 
-# dsa
