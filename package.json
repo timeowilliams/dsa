@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "tsc",
+    "test": "vitest"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "vitest": "^1.6.0"
   }
 }
