@@ -4,12 +4,16 @@
   "main": "index.js",
   "scripts": {
     "compile": "tsc",
-    "test": "vitest"
+    "test": "vitest",
+    "console": "npx ts-node fileName.ts",
+    "format": "npx prettier --write ."
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
     "typescript": "^5.5.3"
   },
   "dependencies": {

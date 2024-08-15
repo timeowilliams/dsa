@@ -2,26 +2,26 @@ export class SmallestInfiniteSet {
   smallest: number;
   available: number[];
   constructor() {
-      this.smallest = 1;
-      this.available = [];
+    this.smallest = 1;
+    this.available = [];
   }
-      // this makes sense
+  // this makes sense
   popSmallest(): number {
-      const small = Math.min(this.smallest, this.available[0] || Infinity);
-      if(small === this.smallest) {
-          this.smallest ++;
-      }
-      if(small === this.available[0]) {
-          this.available.shift();
-      }
-      return small;
+    const small = Math.min(this.smallest, this.available[0] || Infinity);
+    if (small === this.smallest) {
+      this.smallest++;
+    }
+    if (small === this.available[0]) {
+      this.available.shift();
+    }
+    return small;
   }
 
   addBack(num: number): void {
-      if(num < this.smallest && !this.available.includes(num)) {
-          this.available.push(num);
-          this.available.sort((a,b) => a - b);
-      }
+    if (num < this.smallest && !this.available.includes(num)) {
+      this.available.push(num);
+      this.available.sort((a, b) => a - b);
+    }
   }
 }
 
@@ -33,6 +33,4 @@ export class SmallestInfiniteSet {
  */
 
 const smallestInfiniteSet = new SmallestInfiniteSet();
-smallestInfiniteSet.available = [1,2,3,4,5];
-
-
+smallestInfiniteSet.available = [1, 2, 3, 4, 5];

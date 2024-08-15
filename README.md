@@ -1,9 +1,9 @@
 ### DSA problems
 
-To run each file in your computer, 
+To run each file in your computer,
 
-```bash 
-npm i typescript 
+```bash
+npm i typescript
 ```
 
 Convert the TS file to JS
@@ -17,4 +17,3 @@ Run the file
 ```bash
 node lca.js
 ```
-
