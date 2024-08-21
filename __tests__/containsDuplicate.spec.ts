@@ -16,15 +16,14 @@ Input: nums = [1,1,1,3,3,4,3,2,4,2]
 Output: true
 */
 
+test("expect true", () => {
+  expect(containsDuplicate([1, 2, 3, 1])).toBe(true);
+});
 
-test('expect true', () => {
-  expect(containsDuplicate([1,2,3,1])).toBe(true)
-})
+test("expect false", () => {
+  expect(containsDuplicate([1, 2, 3, 4])).toBe(false);
+});
 
-test('expect false', () => {
-  expect(containsDuplicate([1,2,3,4])).toBe(false)
-})
-
-test('expect true', () => {
-  expect(containsDuplicate([1,1,1,3,3,4,3,2,4,2])).toBe(true)
-})
+test("expect true", () => {
+  expect(containsDuplicate([1, 1, 1, 3, 3, 4, 3, 2, 4, 2])).toBe(true);
+});

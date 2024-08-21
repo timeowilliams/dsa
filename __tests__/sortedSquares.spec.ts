@@ -1,5 +1,5 @@
-import { sortedSquares } from '../sortedSquares'
-import {expect, test} from 'vitest'
+import { sortedSquares } from "../sortedSquares";
+import { expect, test } from "vitest";
 
 /*
 Example 1:
@@ -14,9 +14,6 @@ Input: nums = [-7,-3,2,3,11]
 Output: [4,9,9,49,121]
 */
 
-test('expect [0,1,9,16,100]', () => {
-  expect(sortedSquares([-4,-1,0,3,10])).toEqual([0,1,9,16,100])
-})
-
-
-
+test("expect [0,1,9,16,100]", () => {
+  expect(sortedSquares([-4, -1, 0, 3, 10])).toEqual([0, 1, 9, 16, 100]);
+});
