@@ -1,5 +1,7 @@
 ### DSA problems
 
+//TODO: Add workflow to run tests for every PR.
+
 To run each file in your computer,
 
 ```bash
