@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { isValid } from "../validParenthesis";
+import { isValid } from "../solutions/validParenthesis";
 
 test('Expect Input of "()[]{}" to be true', () => {
   expect(isValid("()[]{}")).toBe(true);

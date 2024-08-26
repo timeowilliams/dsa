@@ -1,6 +1,6 @@
 /// tests/increasingTriplet.test.ts
 import { describe, it, expect } from "vitest";
-import { increasingTriplet } from "../increasingTripletSubsequence"; // Adjust the path to where your function is defined
+import { increasingTriplet } from "../solutions/increasingTripletSubsequence"; // Adjust the path to where your function is defined
 
 describe("increasingTriplet", () => {
   it("should return true for an array with an increasing triplet", () => {

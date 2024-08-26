@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { containsDuplicate } from "../containsDuplicate";
+import { containsDuplicate } from "../solutions/containsDuplicate";
 
 /*
 Example 1:

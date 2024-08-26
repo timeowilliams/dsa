@@ -1,4 +1,4 @@
-import { numJewelsInStones } from "../jewelsAndStones";
+import { numJewelsInStones } from "../solutions/jewelsAndStones";
 import { expect, test } from "vitest";
 
 test("There to be 3 jewels in these stones", () => {

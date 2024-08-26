@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { reverseString } from "../reverseString";
+import { reverseString } from "../solutions/reverseString";
 
 test('Expect ["h","e","l","l","o"] to be ["o","l","l","e","h"]', () => {
   expect(reverseString(["h", "e", "l", "l", "o"])).toEqual([

@@ -1,4 +1,4 @@
-import { romanToInt } from "../romanToInteger";
+import { romanToInt } from "../solutions/romanToInteger";
 import { expect, test } from "vitest";
 
 test("III should have a int value of 3", () => {

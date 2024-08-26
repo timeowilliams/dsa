@@ -1,4 +1,4 @@
-import { sortedSquares } from "../sortedSquares";
+import { sortedSquares } from "../solutions/sortedSquares";
 import { expect, test } from "vitest";
 
 /*

@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { maxProfit } from "../maxProfit";
+import { maxProfit } from "../solutions/maxProfit";
 
 test("Expect a profit of 5, given [7,1,5,3,6,4]", () => {
   expect(maxProfit([7, 1, 5, 3, 6, 4])).toEqual(5);

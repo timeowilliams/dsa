@@ -1,4 +1,4 @@
-import { isSubsequence } from "../isSubsequence";
+import { isSubsequence } from "../solutions/isSubsequence";
 import { expect, test } from "vitest";
 
 test("If passing in 'abc' & 'ahbgdc' > should return true", () => {
