@@ -4,7 +4,7 @@
   "scripts": {
     "compile": "tsc",
     "test": "vitest",
-    "console": "tsx solutions/fileName.ts",
+    "console": "tsx solutions/isPalindrome.ts",
     "format": "npx prettier --write ."
   },
   "author": "",
